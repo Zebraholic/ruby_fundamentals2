@@ -15,6 +15,7 @@ puts
   else
   	puts "You need to pick up bananas."
   end
-
+puts
+puts grocery_list[1]
 
 
