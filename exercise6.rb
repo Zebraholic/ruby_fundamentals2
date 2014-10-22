@@ -17,5 +17,10 @@ puts
   end
 puts
 puts grocery_list[1]
+puts
+  grocery_list = grocery_list.sort
+  grocery_list.each do |item|
+  puts "* #{item}"
+  end
 
 
