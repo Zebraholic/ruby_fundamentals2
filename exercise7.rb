@@ -19,4 +19,13 @@ students.delete(:cohort2)
   students.each do |key, value|
   puts "#{key}: #{value} students"
   end 
+puts
+students.each do |key, value|
+  puts "#{key}: #{value} students"
+  total_students = value + 1
+end
 
+
+
+ # BONUS: Calculate the total amount of students
+ #  in all cohorts by using each and incrementing a variable. Output the result.
