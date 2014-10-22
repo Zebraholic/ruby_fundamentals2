@@ -9,3 +9,8 @@ end
 puts
 students[:cohort4] = 43
 puts students.keys
+puts
+students.each do |key, value|
+  value = value * 105/100
+  puts "#{key}: #{value} students"
+end
