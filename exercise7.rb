@@ -8,3 +8,4 @@ students.each do |key, value|
 end
 puts
 students[:cohort4] = 43
+puts students.keys
