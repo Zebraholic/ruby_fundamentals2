@@ -14,3 +14,9 @@ students.each do |key, value|
   value = value * 105/100
   puts "#{key}: #{value} students"
 end
+puts
+students.delete(:cohort2)
+  students.each do |key, value|
+  puts "#{key}: #{value} students"
+  end 
+
